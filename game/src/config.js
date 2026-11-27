@@ -34,7 +34,7 @@ export const FARMER = {
   maxGap: 260,
   patrolSpeed: 0.9,
   suspiciousSpeed: 1.0,
-  huntingSpeed: 1.1,
+  huntingSpeed: 1.16,
   suspiciousAt: 170,
   huntingAt: 110,
   resetGap: 260,

@@ -72,7 +72,8 @@ export class Farmer {
   }
 
   stumble(amount) {
-    this.gap = Math.max(0, this.gap - amount);
+    // Joe trips and falls behind: a hit buys the turkey breathing room.
+    this.gap = Math.min(FARMER.maxGap, this.gap + amount);
   }
 
   fallBehind(amount) {
